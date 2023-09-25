@@ -11,6 +11,10 @@ function getTime() {
 	if (second < 10) {
 		second = "0" + second;
 	}
+	//yukardakinin aynısı dakika için
+	if (minute < 10) {
+		minute = "0" + minute;
+	}
 	let hourSpan = document.querySelector("#hour");
 	let minuteSpan = document.querySelector("#minute");
 	let secondSpan = document.querySelector("#second");
